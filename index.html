@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>formulaire</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+        <header><h1>Formulaire d'inscription</h1></header>
+        
+        <p>
+            <label for="pseudo">Pseudo</label> :
+            <input type="text" name="pseudo" id="pseudo" value="" required>
+            
+        </p>
+
+        <p>
+            <label for="nmbr">Nombre</label> :
+            <input type="number" name="nmbr" id="nmbr" value="" required>
+            
+        </p>
+        <div id="js"></div>
+        <script src="recupForm.js"></script>
+        <button onclick="getForm()">Envoyer</button>
+        <button onclick="reset()">Rage quit de la Thibaud Base(relancer)</button>
+        <button onclick="tableau()">Résultats</button>
+        <div  id="tab"></div>
+    </form>
+</body>
+</html>
